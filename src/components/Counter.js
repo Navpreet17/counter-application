@@ -1,8 +1,4 @@
-import { useState } from "react";
-
-export function Counter({ count, setCount, getChildValue }) {
-  const [value, setValue] = useState("test");
-
+export function Counter({ count, setCount }) {
   const handleCounter = (name) => {
     if (name === "inc") {
       setCount(count + 1);
