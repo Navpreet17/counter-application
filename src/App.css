@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -25,7 +26,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #61fbf1;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +36,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.brder{
+  border-bottom-style: solid;
+  text-align: center;
+  padding: 5px;
+  font-family: 'Preahvihear', sans-serif;
+}
+
+button{
+  margin: 3%;
+}
+h1{
+  margin: 3%;
 }
